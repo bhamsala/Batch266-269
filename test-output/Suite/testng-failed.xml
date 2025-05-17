@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="iteration-1(failed)">
+    <parameter name="match" value="gt-vs-pbks-17th-match-indian-premier-league-2024"/>
+    <parameter name="innings" value="1"/>
+    <parameter name="batsman" value="2"/>
+    <parameter name="matchid" value="89738"/>
+    <classes>
+      <class name="propertiestestfiles.PFProgramUsingSuitefile7">
+        <methods>
+          <include name="e2eTestValidation" invocation-numbers="0"/>
+          <include name="testUI" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- propertiestestfiles.PFProgramUsingSuitefile7 -->
+    </classes>
+  </test> <!-- iteration-1(failed) -->
+  <test thread-count="5" name="iteration-2(failed)">
+    <parameter name="match" value="lsg-vs-rcb-15th-match-indian-premier-league-2024"/>
+    <parameter name="innings" value="2"/>
+    <parameter name="batsman" value="2"/>
+    <parameter name="matchid" value="89738"/>
+    <classes>
+      <class name="propertiestestfiles.PFProgramUsingSuitefile7">
+        <methods>
+          <include name="e2eTestValidation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- propertiestestfiles.PFProgramUsingSuitefile7 -->
+    </classes>
+  </test> <!-- iteration-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

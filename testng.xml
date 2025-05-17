@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test name="iteration-1">
+	<parameter name="matchid" value="89738"/>
+	<parameter name="match" value="gt-vs-pbks-17th-match-indian-premier-league-2024"/>
+	<parameter name="innings" value="1"/>
+	<parameter name="batsman" value="2"/>
+    <classes>
+      <class name="propertiestestfiles.PFProgramUsingSuitefile7"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="iteration-2">
+	<parameter name="matchid" value="89738"/>
+	<parameter name="match" value="lsg-vs-rcb-15th-match-indian-premier-league-2024"/>
+	<parameter name="innings" value="2"/>
+	<parameter name="batsman" value="2"/>
+    <classes>
+      <class name="propertiestestfiles.PFProgramUsingSuitefile7"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

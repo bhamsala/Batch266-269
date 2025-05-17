@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[E2E test passed89738]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\src\test\resources\11-Feb-2025-09-49-15-169.png"><img src="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\src\test\resources\11-Feb-2025-09-49-15-169.png" height="100" width="100"/></a>]]>
+    </line>
+    <line>
+      <![CDATA[E2E test passed89738]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\src\test\resources\11-Feb-2025-09-49-18-983.png"><img src="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\src\test\resources\11-Feb-2025-09-49-18-983.png" height="100" width="100"/></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-11T21:49:08 CST" name="Suite" finished-at="2025-02-11T21:49:19 CST" duration-ms="10387">
+    <groups>
+    </groups>
+    <test started-at="2025-02-11T21:49:08 CST" name="iteration-1" finished-at="2025-02-11T21:49:15 CST" duration-ms="6576">
+      <class name="propertiestestfiles.PFProgramUsingSuitefile7">
+        <test-method signature="testdatasetup(java.lang.String,java.lang.String)[pri:1, instance:propertiestestfiles.PFProgramUsingSuitefile7@49ec71f8]" started-at="2025-02-11T21:49:08 CST" name="testdatasetup" finished-at="2025-02-11T21:49:08 CST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[89738]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gt-vs-pbks-17th-match-indian-premier-league-2024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdatasetup -->
+        <test-method signature="testAPI(java.lang.String,java.lang.String)[pri:2, instance:propertiestestfiles.PFProgramUsingSuitefile7@49ec71f8]" started-at="2025-02-11T21:49:08 CST" name="testAPI" finished-at="2025-02-11T21:49:10 CST" duration-ms="2113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAPI -->
+        <test-method signature="testUI(java.lang.String,java.lang.String)[pri:3, instance:propertiestestfiles.PFProgramUsingSuitefile7@49ec71f8]" started-at="2025-02-11T21:49:10 CST" name="testUI" finished-at="2025-02-11T21:49:15 CST" duration-ms="4300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUI -->
+        <test-method signature="e2eTestValidation(java.lang.String)[pri:4, instance:propertiestestfiles.PFProgramUsingSuitefile7@49ec71f8]" started-at="2025-02-11T21:49:15 CST" name="e2eTestValidation" finished-at="2025-02-11T21:49:15 CST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[89738]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[E2E test passed89738]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\src\test\resources\11-Feb-2025-09-49-15-169.png"><img src="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\src\test\resources\11-Feb-2025-09-49-15-169.png" height="100" width="100"/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- e2eTestValidation -->
+      </class> <!-- propertiestestfiles.PFProgramUsingSuitefile7 -->
+    </test> <!-- iteration-1 -->
+    <test started-at="2025-02-11T21:49:15 CST" name="iteration-2" finished-at="2025-02-11T21:49:19 CST" duration-ms="3786">
+      <class name="propertiestestfiles.PFProgramUsingSuitefile7">
+        <test-method signature="testdatasetup(java.lang.String,java.lang.String)[pri:1, instance:propertiestestfiles.PFProgramUsingSuitefile7@77888435]" started-at="2025-02-11T21:49:15 CST" name="testdatasetup" finished-at="2025-02-11T21:49:15 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[89738]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lsg-vs-rcb-15th-match-indian-premier-league-2024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdatasetup -->
+        <test-method signature="testAPI(java.lang.String,java.lang.String)[pri:2, instance:propertiestestfiles.PFProgramUsingSuitefile7@77888435]" started-at="2025-02-11T21:49:15 CST" name="testAPI" finished-at="2025-02-11T21:49:15 CST" duration-ms="413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAPI -->
+        <test-method signature="testUI(java.lang.String,java.lang.String)[pri:3, instance:propertiestestfiles.PFProgramUsingSuitefile7@77888435]" started-at="2025-02-11T21:49:15 CST" name="testUI" finished-at="2025-02-11T21:49:18 CST" duration-ms="3256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUI -->
+        <test-method signature="e2eTestValidation(java.lang.String)[pri:4, instance:propertiestestfiles.PFProgramUsingSuitefile7@77888435]" started-at="2025-02-11T21:49:18 CST" name="e2eTestValidation" finished-at="2025-02-11T21:49:19 CST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[89738]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[E2E test passed89738]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\src\test\resources\11-Feb-2025-09-49-18-983.png"><img src="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\src\test\resources\11-Feb-2025-09-49-18-983.png" height="100" width="100"/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- e2eTestValidation -->
+      </class> <!-- propertiestestfiles.PFProgramUsingSuitefile7 -->
+    </test> <!-- iteration-2 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case passed for valid data]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed for blank username]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed for blank email]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed for blank confirm password]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed for blank password]]>
+    </line>
+    <line>
+      <![CDATA[email_alreadyused Test case raised no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='This email is already used in an AidaForm account.']"}
+  (Session info: chrome=133.0.6943.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b50ac7a0c3bc217502cd4f0d7ff8dce3, findElement {using=xpath, value=//div[text()='This email is already used in an AidaForm account.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\bharg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58166/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b50ac7a0c3bc217502cd4f0d7ff8dce3]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\target\22-Feb-2025-11-23-21-101.png"><img src="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\target\22-Feb-2025-11-23-21-101.png" height="100" width="100"/></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-22T23:22:33 CST" name="Default suite" finished-at="2025-02-22T23:23:21 CST" duration-ms="48288">
+    <groups>
+    </groups>
+    <test started-at="2025-02-22T23:22:33 CST" name="Default test" finished-at="2025-02-22T23:23:21 CST" duration-ms="48288">
+      <class name="FALCON.ExcelFileProgram12">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:FALCON.ExcelFileProgram12@7b98f307]" started-at="2025-02-22T23:22:33 CST" name="testSetup" finished-at="2025-02-22T23:22:33 CST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="method1()[pri:1, instance:FALCON.ExcelFileProgram12@7b98f307]" started-at="2025-02-22T23:22:33 CST" name="method1" finished-at="2025-02-22T23:23:21 CST" duration-ms="48165" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at FALCON.ExcelFileProgram12.method1(ExcelFileProgram12.java:198)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed for valid data]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed for blank username]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed for blank email]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed for blank confirm password]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed for blank password]]>
+            </line>
+            <line>
+              <![CDATA[email_alreadyused Test case raised no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='This email is already used in an AidaForm account.']"}
+  (Session info: chrome=133.0.6943.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b50ac7a0c3bc217502cd4f0d7ff8dce3, findElement {using=xpath, value=//div[text()='This email is already used in an AidaForm account.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\bharg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58166/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b50ac7a0c3bc217502cd4f0d7ff8dce3]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\target\22-Feb-2025-11-23-21-101.png"><img src="C:\2025\Batch-269\IDE-BDD\org.bofa.cne\target\22-Feb-2025-11-23-21-101.png" height="100" width="100"/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FALCON.ExcelFileProgram12@7b98f307]" started-at="2025-02-22T23:23:21 CST" name="tearDown" finished-at="2025-02-22T23:23:21 CST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FALCON.ExcelFileProgram12 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
